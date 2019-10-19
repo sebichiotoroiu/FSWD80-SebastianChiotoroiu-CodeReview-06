@@ -1,0 +1,57 @@
+.jumbotron {
+	background: url('https://cdn.pixabay.com/photo/2019/10/16/17/57/in-the-fall-4555052_1280.jpg');
+	background-size: cover;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	height: 40vw;
+  	text-align: center;
+}
+.jumbotron h1 {
+	text-shadow: 1px 1px 0 white, -1px -1px 0 white, 0 0 25px white;
+}
+
+#title {
+	padding: 20px;
+	color: black;
+	text-align: center;
+}
+
+#places, #restaurants, #events {
+	padding: 20px;
+	color: black;
+	text-align: center;
+	text-shadow: 1px 1px 0 white, -1px -1px 0 white, 0 0 25px;
+}
+
+h5 {
+	padding: 20px;
+	color: black;
+	text-align: center;
+	text-shadow: 1px 1px 0 white, -1px -1px 0 white, 0 0 25px;
+
+}
+
+#pic {
+	height: 220px;
+	width: 100%;
+}
+
+.placeName {
+	text-align: center;
+	color: white;
+	background-color: darkgrey;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+#footer {
+	background-color: #696969;
+	color: white;
+}
+
+
+i {
+	font-family: FontAwesome;
+	color: gray;
+	font-size: 20px;
+}
