@@ -93,7 +93,7 @@ console.log(sortare);
 //Ascending sorting 
 
 function ascSort() {
-  for (let i=0; i<sortare.length; i++) {
+  for (let i=0; i <sortare.length; i++) {
     sortare.sort(function(a,b){
       return Date.parse(a.date)-Date.parse(b.date);//tranforms dates in millisec and compares them
     });
